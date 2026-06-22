@@ -1,6 +1,6 @@
 :root {
-  color: #18332f;
-  background: #f4f1e8;
+  color: #243b53;
+  background: #f2f7fc;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-synthesis: none;
   line-height: 1.6;
@@ -21,9 +21,9 @@ body {
 }
 
 .site-header {
-  color: #fffdf5;
-  background: #183f39;
-  border-bottom: 6px solid #e3a72f;
+  color: #f8fbff;
+  background: #668bb4;
+  border-bottom: 6px solid #b9d5ef;
 }
 
 .hero {
@@ -32,7 +32,7 @@ body {
 
 .eyebrow {
   margin: 0 0 0.35rem;
-  color: #bd7028;
+  color: #557fae;
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.13em;
@@ -40,7 +40,7 @@ body {
 }
 
 .site-header .eyebrow {
-  color: #f3c267;
+  color: #e1effc;
 }
 
 h1,
@@ -74,7 +74,7 @@ h4 {
 .intro {
   max-width: 650px;
   margin-bottom: 0;
-  color: #d9e6df;
+  color: #edf6ff;
   font-size: 1.12rem;
 }
 
@@ -86,10 +86,10 @@ h4 {
 
 .card {
   padding: clamp(1.25rem, 4vw, 2.25rem);
-  background: #fffdf7;
-  border: 1px solid #d9d2c1;
+  background: #ffffff;
+  border: 1px solid #ceddeb;
   border-radius: 18px;
-  box-shadow: 0 10px 25px rgb(24 51 47 / 8%);
+  box-shadow: 0 10px 25px rgb(54 91 128 / 10%);
 }
 
 .section-heading {
@@ -106,7 +106,7 @@ h4 {
   height: 3rem;
   place-items: center;
   color: #fff;
-  background: #bd7028;
+  background: #6f9dcc;
   border-radius: 50%;
   font-family: Georgia, serif;
   font-size: 1.35rem;
@@ -124,20 +124,20 @@ h4 {
   align-items: center;
   gap: 0.7rem;
   padding: 0.8rem 1rem;
-  background: #f1eee4;
+  background: #edf4fb;
   border-radius: 9px;
 }
 
 input[type='checkbox'] {
   width: 1.15rem;
   height: 1.15rem;
-  accent-color: #bd7028;
+  accent-color: #5d88b7;
 }
 
 code {
   padding: 0.12rem 0.35rem;
-  color: #17443c;
-  background: #e4eee9;
+  color: #315f8c;
+  background: #e4f0fa;
   border-radius: 4px;
   font-size: 0.9em;
 }
@@ -157,7 +157,7 @@ code {
   grid-template-columns: minmax(120px, 0.7fr) 1fr;
   gap: 0.75rem;
   padding: 0.7rem 0;
-  border-top: 1px solid #ddd7c8;
+  border-top: 1px solid #d7e4f0;
 }
 
 .commands dt,
@@ -170,7 +170,7 @@ form {
   gap: 1rem;
   margin-top: 1.5rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid #d9d2c1;
+  border-bottom: 1px solid #ceddeb;
 }
 
 .form-row {
@@ -190,7 +190,7 @@ textarea {
   padding: 0.8rem 0.9rem;
   color: inherit;
   background: #fff;
-  border: 1px solid #a9a596;
+  border: 1px solid #a9bfd3;
   border-radius: 7px;
   font: inherit;
 }
@@ -202,12 +202,12 @@ textarea {
 input:focus,
 textarea:focus,
 button:focus-visible {
-  outline: 3px solid rgb(227 167 47 / 45%);
+  outline: 3px solid rgb(111 157 204 / 45%);
   outline-offset: 2px;
 }
 
 .optional {
-  color: #6b746e;
+  color: #60758a;
   font-size: 0.88rem;
   font-weight: 400;
 }
@@ -224,7 +224,7 @@ button:focus-visible {
 button {
   padding: 0.75rem 1rem;
   color: #fff;
-  background: #bd7028;
+  background: #4d79a8;
   border: 0;
   border-radius: 7px;
   font: inherit;
@@ -233,11 +233,11 @@ button {
 }
 
 button:hover {
-  background: #96551d;
+  background: #365f8c;
 }
 
 .save-status {
-  color: #2d6b54;
+  color: #416f9f;
   font-weight: 700;
 }
 
@@ -269,8 +269,8 @@ button:hover {
 
 .note {
   padding: 1.15rem;
-  background: #f1eee4;
-  border-left: 4px solid #2d6b54;
+  background: #edf4fb;
+  border-left: 4px solid #6f9dcc;
   border-radius: 7px;
 }
 
@@ -280,7 +280,7 @@ button:hover {
 }
 
 .note time {
-  color: #616c66;
+  color: #60758a;
   white-space: nowrap;
 }
 
@@ -299,16 +299,16 @@ button:hover {
 
 .empty-message {
   padding: 1rem;
-  color: #616c66;
-  background: #f1eee4;
+  color: #60758a;
+  background: #edf4fb;
   border-radius: 7px;
   text-align: center;
 }
 
 footer {
   padding-block: 1.5rem;
-  color: #d9e6df;
-  background: #183f39;
+  color: #f1f7fd;
+  background: #668bb4;
   text-align: center;
 }
 
