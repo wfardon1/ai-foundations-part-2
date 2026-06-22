@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Beginner Vite Web App"
+  short_description: "Build simple learning-focused Vite web apps"
+  default_prompt: "Use $build-beginner-vite-web-app to build a simple Vite practice app with localStorage and deployment instructions."
